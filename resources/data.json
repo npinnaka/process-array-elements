@@ -1,0 +1,1 @@
+{"id": 1, "stocks": [{"name": "Apple", "price": 105.00, "quantity": 50, "stock_dividends": [{"amount":0.53,"date": "20190213"},{"amount":0.45,"date": "20181113"}]},{"name": "Ford", "price": 8.05, "quantity": 150, "stock_dividends": [{"amount":0.05,"date": "20190313"},{"amount":0.05,"date": "20181213"}]}]}
