@@ -31,47 +31,6 @@
   (merge tranx {"stocks" (convert-to-map util/stock-schema-vec (get tranx "stocks") true)}))
 
 ;; processing json in the following format, tp clojure map
-(comment
-
-  {
-    "id": 1,
-    "stocks": [
-                {
-                  "name": "Apple",
-                  "price": 105.00,
-                  "quantity": 50,
-                  "stock_dividends": [
-                                       {
-                                         "amount": 0.53,
-                                         "date": "20190213"
-                                         },
-                                       {
-                                         "amount": 0.45,
-                                         "date": "20181113"
-                                         }
-                                       ]
-                  },
-                {
-                  "name": "Ford",
-                  "price": 8.05,
-                  "quantity": 150,
-                  "stock_dividends": [
-                                       {
-                                         "amount": 0.05,
-                                         "date": "20190313"
-                                         },
-                                       {
-                                         "amount": 0.05,
-                                         "date": "20181213"
-                                         }
-                                       ]
-                  }
-                ]
-    }
-
-
-
-  )
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
